@@ -12,4 +12,6 @@ public void draw()
   for(int i=0; i<sue.length; i++) {
        sue[i].show(); 
     }
+  bob.move();
+  bob.show();
 }
