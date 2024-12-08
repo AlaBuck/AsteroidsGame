@@ -66,5 +66,5 @@ class Spaceship extends Floater
     {     
       myCenterY = height;    
     }   
-  }   /*
+  }   */
 }
