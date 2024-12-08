@@ -23,8 +23,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     myPointDirection+=degreesOfRotation;   
   }   
   public void move ()   //move the floater in the current direction of travel
-  {      
-    background(0);      
+  {          
     myCenterX += myXspeed;    
     myCenterY += myYspeed;     
 
