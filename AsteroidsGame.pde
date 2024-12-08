@@ -1,10 +1,11 @@
-Star[] sue = new Star[200];
+Star[] sue;
 Spaceship ally;
 public void setup() 
 {
     size(400,400);
     background(0,0,0);
-    ally= new Spaceship();
+    ally = new Spaceship();
+    sue = new Star[200];
     for(int i=0; i<sue.length; i++) {
         sue[i] = new Star();
     }
