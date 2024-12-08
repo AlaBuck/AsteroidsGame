@@ -30,7 +30,7 @@ class Spaceship extends Floater
     xCorners[10] =(int) 5;
     xCorners[11] = 0;
     xCorners[12] = 10;
-    myColor=255;
+    myColor=0xffff0000;
     myCenterX=250;
     myCenterY=250;
     myXspeed=myYspeed=0;
@@ -42,6 +42,11 @@ class Spaceship extends Floater
    myCenterX=Math.random()*500;
    myCenterY=Math.random()*500;
   }
+  public void setMyColor(int newColor) {
+    super.myColor = newColor;
+  }
+  
+  
 /*public void move ()   //move the floater in the current direction of travel
   {      
     background(0,0,0);
