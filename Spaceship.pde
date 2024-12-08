@@ -7,14 +7,14 @@ class Spaceship extends Floater
     yCorners[0] = 0;
     yCorners[1] = (int)5;
     yCorners[2] = (int) 5;
-    yCorners[3] =(int) 7.5;
+    yCorners[3] =(int) 8;
     yCorners[4] = 10;
     yCorners[5] =(int) 5;
     yCorners[6] = 10;
     yCorners[7] = -10;
     yCorners[8] =(int) -5;
     yCorners[9] = -10;
-    yCorners[10] =(int) -7.5;
+    yCorners[10] =(int) -8;
     yCorners[11] =(int) -5;
     yCorners[12] =(int) -5;
     xCorners[0] = 20;
