@@ -1,5 +1,4 @@
 Star[] sue = new Star[200];
-Spaceship bob = new Spaceship();
 public void setup() 
 {
     size(400,400);
