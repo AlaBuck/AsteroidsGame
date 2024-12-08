@@ -1,4 +1,5 @@
 Star[] sue = new Star[200];
+Spaceship bob = new Spaceship();
 public void setup() 
 {
     size(400,400);
@@ -14,4 +15,18 @@ public void draw()
     }
   bob.move();
   bob.show();
+}
+public void keyPressed(){
+ if(key=='a'||key=='A'){
+   bob.turn(-10);
+ }
+ if(key=='d'||key=='D'){
+   bob.turn(10); 
+ }
+ if(key=='w'||key=='W'){
+   bob.accelerate((double)0.1); 
+ }
+ if(key=='x'||key=='X'){
+   bob.hyperspace(); 
+ }
 }
