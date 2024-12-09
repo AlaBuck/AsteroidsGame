@@ -42,6 +42,11 @@ class Spaceship extends Floater
    myCenterX=Math.random()*500;
    myCenterY=Math.random()*500;
   }
+  public void setMyColor(int newColor) {
+    super.myColor = newColor;
+  }
+  
+  
 /*public void move ()   //move the floater in the current direction of travel
   {      
     background(0,0,0);
