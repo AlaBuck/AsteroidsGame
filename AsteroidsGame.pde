@@ -13,11 +13,11 @@ public void setup()
 public void draw() 
 {
   background(0,0,0);
-  myShip.move();
-  myShip.show();
   for(int i=0; i<myStar.length; i++) {
     myStar[i].show(); 
   }
+  myShip.show();
+  myShip.move();
 }
 public void keyPressed(){
  if(key=='a'||key=='A'){
