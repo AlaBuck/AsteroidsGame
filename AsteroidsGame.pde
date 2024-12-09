@@ -1,4 +1,4 @@
-//Spaceship myShip = new Spaceship();
+Spaceship myShip = new Spaceship();
 Star myStar[];
 
 public void setup() 
