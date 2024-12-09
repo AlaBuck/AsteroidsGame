@@ -5,6 +5,7 @@ public void setup()
   size(500,500);
   background(0,0,0);
   myShip = new Spaceship();
+  myShip.setMyColor(0xffff0000);
   for(int i=0; i<myStar.length; i++) {
    myStar[i] = new Star(); 
   }
