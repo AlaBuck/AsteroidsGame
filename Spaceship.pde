@@ -30,7 +30,7 @@ class Spaceship extends Floater
     xCorners[10] =(int) 5;
     xCorners[11] = 0;
     xCorners[12] = 10;
-    myColor=color(255);
+    myColor=#FF0000; // red
     myCenterX=x;
     myCenterY=y;
     myXspeed=myYspeed=0;
