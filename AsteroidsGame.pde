@@ -1,12 +1,12 @@
 Spaceship myShip;
-Star myStar[];
+Star[] myStar = new Star[200];
+
 
 public void setup() 
 {
   size(500,500);
   background(0);
-  myShip = new Spaceship();
-  myStar = new Star[200];
+  myShip = new Spaceship(250,250);
   for(int i=0; i<myStar.length; i++) {
    myStar[i] = new Star(); 
   }
