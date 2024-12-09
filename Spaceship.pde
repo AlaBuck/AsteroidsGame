@@ -30,7 +30,7 @@ class Spaceship extends Floater
     xCorners[10] =(int) 5;
     xCorners[11] = 0;
     xCorners[12] = 10;
-    myColor=0xffff0000;
+    myColor=0xff00ff00;
     myCenterX=250;
     myCenterY=250;
     myXspeed=myYspeed=0;
@@ -41,8 +41,5 @@ class Spaceship extends Floater
    myPointDirection=(Math.random()*360);
    myCenterX=Math.random()*500;
    myCenterY=Math.random()*500;
-  }
-  public void setMyColor(int newColor) {
-    super.myColor = newColor;
   }
 }
