@@ -23,7 +23,7 @@ public void draw()
    myShip.move();
 }
 
-public void keyPressed(){w
+public void keyPressed(){
  if(key=='a'||key=='A'){
    myShip.turn(-10);
  }
