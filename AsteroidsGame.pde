@@ -1,5 +1,6 @@
 Spaceship myShip = new Spaceship();
 Star[] myStar = new Star[200];
+
 public void setup() 
 {
   size(500,500);
@@ -9,17 +10,17 @@ public void setup()
    myStar[i] = new Star(); 
   }
 }
+
 public void draw() 
 {
-  background(0);
-  fill(204,102,0);
-  stroke(204,102,0);
-  for(int i=0; i<myStar.length; i++) {
-    myStar[i].show(); 
-  }
- myShip.show();
- myShip.move();
+   background(0);
+   for(int i=0; i<myStar.length; i++) {
+     myStar[i].show(); 
+   }
+   myShip.show();
+   myShip.move();
 }
+
 public void keyPressed(){
  if(key=='a'||key=='A'){
    myShip.turn(-10);

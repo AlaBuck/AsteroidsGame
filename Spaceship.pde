@@ -45,31 +45,4 @@ class Spaceship extends Floater
   public void setMyColor(int newColor) {
     super.myColor = newColor;
   }
-  
-  
-/*public void move ()   //move the floater in the current direction of travel
-  {      
-    background(0,0,0);
-    myCenterX += myXspeed;    
-    myCenterY += myYspeed;     
-
-    //wrap around screen    
-    if(myCenterX >width)
-    {     
-      myCenterX = 0;    
-    }    
-    else if (myCenterX<0)
-    {     
-      myCenterX = width;    
-    }    
-    if(myCenterY >height)
-    {    
-      myCenterY = 0;    
-    } 
-    
-    else if (myCenterY < 0)
-    {     
-      myCenterY = height;    
-    }   
-  }   */
 }
