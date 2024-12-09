@@ -3,15 +3,17 @@ Star[] myStar = new Star[200];
 public void setup() 
 {
   size(500,500);
-  background(0,0,0);
-  myShip.setMyColor(0xffff0000);
+  background(0);
+  myShip.setMyColor(0xff00FF00);
   for(int i=0; i<myStar.length; i++) {
    myStar[i] = new Star(); 
   }
 }
 public void draw() 
 {
-  background(0,0,0);
+  background(0);
+  fill(204,102,0);
+  stroke(204,102,0);
   for(int i=0; i<myStar.length; i++) {
     myStar[i].show(); 
   }
